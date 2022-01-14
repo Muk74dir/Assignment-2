@@ -41,22 +41,101 @@
     font-weight: 700;   
 }
 .intro p{
-
+    font-weight: 600px;
+    position: relative;
+    margin-top: -30px;
+    margin-bottom: 30px;
 }
 .btn{
+    /* width: 196px;
+    height: 44px; */
     background-color:#E02C6D;
     color: white;
-    padding: 10px 24px;
     border-radius: 41px;
-    font-weight: bold; 
-    border: 1px solid #E02C6D ; 
+    font-weight: 700; 
+    border: 1px solid #E02C6D ;
+    padding: 10px 24px;
+    font-size: 17px; 
 }
 .fa-arrow-right{
-    padding-left: 8px;
+    margin-left: 8px;
 }
 
 .intro-pic img{
     margin-top: 80px; 
     margin-left: 200px;
+    margin-bottom: 170px;
     
+    
+}
+
+/*------------------- Logos-Section---------------- */
+
+.logos{
+    display: flex;
+    justify-content: space-around;
+    padding-left: 165px;
+    padding-right: 165px;
+    align-items: center;
+}
+
+/* ------------Product Section------------- */
+.Collection-title h1{
+    margin-top: 100px;
+    text-align: center;
+    font-size: 40px;
+    font-weight: 700;
+    margin-bottom: 60px;
+}
+
+.container{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    margin-left: 150px;
+    grid-row-gap: 30px;
+   
+}
+.products{
+    background-color: #FFFFFF;
+    box-shadow: 0px 0px 40px rgba(0, 0, 0, 0.15);
+    border-radius: 5px;
+    padding: 20px;
+    height: 475px;
+    width: 300px;
+    
+
+}
+.product img{
+    height: 256px;
+    width: 300px;
+    border-radius: 5px;
+}
+.product-title{
+    font-size: 28px;
+
+}
+.price{
+    font-size: 24px;
+    font-weight: 500;
+}
+.fa-star, .fa-star-half-alt{
+    color: orange;
+    margin-right: 4px;
+}
+.fa-star-half-alt{
+    margin-right: 8px;
+   
+}
+.rating{
+    font-family: Roboto;
+    font-weight: bold;
+    color: gray;
+    align-items: center;
+}
+.rating span{
+    font-size: 18px;
+}
+.product-info{
+    color: #787885;
+    font-weight: 600;
 }
