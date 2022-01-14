@@ -1,0 +1,62 @@
+/* google font  */
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@500&family=Ubuntu&display=swap');
+
+
+
+   /* ------------Top-Section -------------*/
+.title h1{
+    font-size: 24;
+
+}
+
+.menu-bar a{
+    text-decoration: none;
+    color: black;
+    margin-left: 34px;
+    font-size: 16px;
+    font-weight: 600;
+}
+
+.top-section{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-left: 120px;
+    margin-right: 120px;
+}
+
+/* -----------Middle-Section -------------*/
+.middle-section{
+    display: flex;
+    padding-left: 120px;
+}
+.intro{
+    margin-top: 145px;
+    width: 582px;
+    height: 270px;
+    
+}
+.intro h1{
+    font-size: 52px;
+    font-weight: 700;   
+}
+.intro p{
+
+}
+.btn{
+    background-color:#E02C6D;
+    color: white;
+    padding: 10px 24px;
+    border-radius: 41px;
+    font-weight: bold; 
+    border: 1px solid #E02C6D ; 
+}
+.fa-arrow-right{
+    padding-left: 8px;
+}
+
+.intro-pic img{
+    margin-top: 80px; 
+    margin-left: 200px;
+    
+}
