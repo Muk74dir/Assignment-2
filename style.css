@@ -122,9 +122,6 @@ body{
     margin-right: 200px;
      
 }
-.container:hover{
-
-}
 
 .product{
     background-color: #FFFFFF;
@@ -270,4 +267,143 @@ footer{
 }
 .fab:hover{
     color: #ff005d;
+}
+
+
+
+
+/*--------------------- Media Query--------------- */
+
+@media only screen and (max-width: 688px) {
+
+
+    .top-section{
+        margin: 0;
+        padding: 0;
+        flex-direction: column;
+        width: 100%;
+    }
+    .middle-section{
+        margin: 0;
+        padding: 0;
+        flex-direction: column;
+        width: 100%;
+    }
+    .intro{
+        margin: 0;
+        padding: 0;
+        width: 100%;
+    }
+    .intro-pic img{
+        margin: 0;
+        padding:0;
+        width: 100%;
+        flex-direction: column;  
+    }
+    .logos{
+        margin: 0;
+        padding:0;
+        width: 100%;
+        flex-direction: column;
+    }
+    .Collection-title{
+        margin: 0;
+        padding:0;
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+
+    }
+    .container{
+        margin: 0;
+        padding:0;
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+    }
+    .product{
+        margin: 0;
+        padding:10px;
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+    }
+    .product-title{
+        text-align: center;
+    }
+    .product img{
+        margin: 0;
+        padding:0;
+        width: 100%;
+        text-align: center;
+    }
+    .price, .rating {
+        margin: 0;
+        padding:0;
+        width: 100%;
+        text-align: center;
+        margin-top: 10px;
+        margin-bottom: 10px;
+    }
+    .product-info{
+        margin: 0;
+        padding:0;
+        width:95%;
+        text-align: center;
+        padding-left: 10px;
+    }
+    .contact-form{
+        margin-left: 10px;
+        padding-left: 10px;
+        width: 80%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        
+    }
+    .left-part{
+        margin: 0;
+        padding:0;
+        width: 100%;
+    }
+    .left-part h1{
+        font-size: 50px;
+    }
+    .right-part{
+        margin: 0;
+        padding:0;
+        width: 100%;
+    }
+
+    }.right-part input[type=text]{
+        margin: 5px;
+        padding: 5px;
+        width: 85%;
+    }
+    .right-part span{
+        margin: 0;
+        padding:0;
+    }
+    .right-part button{
+        margin: 0;
+        padding:0;
+        justify-content: center;
+    }
+    #see-more{
+        margin-top: 30px;
+        margin-bottom: 60px;
+        padding:0;
+        width: 100%;
+        text-align: center;
+    }
+    footer{
+        margin: 0;
+        padding:0;
+        width: 100%;
+    }
+ 
+
+
+   
 }
