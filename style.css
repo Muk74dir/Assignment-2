@@ -64,7 +64,6 @@ body{
     position: relative;
     margin-top: -30px;
     margin-bottom: 30px;
-    font-size: 18px;
 }
 .btn{
     /* width: 196px;
@@ -304,7 +303,15 @@ footer{
         flex-direction: column;
         width: 100%;
     }
-    .intro, .intro>h1{
+    .intro{
+        margin: 0;
+        padding: 0;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        width: 100%;
+    }
+    .intro>h1{
         margin: 0;
         padding: 0;
         width: 100%;
@@ -315,18 +322,17 @@ footer{
     .intro>p{
         margin: 0;
         padding: 0;
-        width: 85%;
-        margin-bottom: 15px;
+        width: 100%;
         padding-left: 10px;
     }
 
     .intro-pic img{
         position: static;
-        margin-left: 10px;
+        margin-left: 30px;
         padding:0;
         width: 100%;
         display: flex;
-        flex-direction: column;  
+        flex-direction: column; 
     }
     .logos{
         margin: 0;
@@ -440,7 +446,7 @@ footer{
 \*-------------------------------------------------------------*/
 
 
-@media only screen and (max-width: 950px) {
+@media only screen and (min-width: 768px) and (max-width: 1024px) {
     .top-section, .menu-bar, .menu-bar a, .middle-section, .intro, .intro>h1,  .intro>p, .intro-pic img, .logos, .Collection-title, .container, .product, .product-title, .product img, .price, .rating, .product-info, 
     .contact-form, .left-part, .left-part h1, .right-part, .right-part input[type=text], .right-part span, 
     .right-part button, #see-more, footer{
