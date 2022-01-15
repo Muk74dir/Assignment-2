@@ -14,6 +14,9 @@ body{
 
 }
 
+.menu-bar2{
+    display: none;
+}
 .menu-bar a{
     text-decoration: none;
     color: black;
@@ -264,6 +267,7 @@ footer{
 .fab{
     padding-left: 20px;
     font-size: 40px;
+    padding-bottom: 40px;
 }
 .fab:hover{
     color: #ff005d;
@@ -272,7 +276,9 @@ footer{
 
 
 
-/*--------------------- Media Query--------------- */
+/*-----------------
+--------- Media Query----------
+----------------------------- */
 
 @media only screen and (max-width: 688px) {
 
@@ -283,21 +289,42 @@ footer{
         flex-direction: column;
         width: 100%;
     }
+    .menu-bar{
+        display: flex;
+        flex-direction: column;
+    }
+    .menu-bar a{
+        margin-bottom: 30px;
+    }
+
     .middle-section{
         margin: 0;
         padding: 0;
         flex-direction: column;
         width: 100%;
     }
-    .intro{
+    .intro, .intro>h1{
         margin: 0;
         padding: 0;
         width: 100%;
+        margin-bottom: 15px;
+        padding-left: 10px;
+        padding-right: 10px;
     }
-    .intro-pic img{
+    .intro>p{
         margin: 0;
+        padding: 0;
+        width: 85%;
+        margin-bottom: 15px;
+        padding-left: 10px;
+    }
+
+    .intro-pic img{
+        position: static;
+        margin-left: 10px;
         padding:0;
         width: 100%;
+        display: flex;
         flex-direction: column;  
     }
     .logos{
@@ -376,7 +403,7 @@ footer{
         width: 100%;
     }
 
-    }.right-part input[type=text]{
+    .right-part input[type=text]{
         margin: 5px;
         padding: 5px;
         width: 85%;
@@ -406,4 +433,21 @@ footer{
 
 
    
+}
+
+/*---------------------- Media Query For Tablet----------------*\
+\*-------------------------------------------------------------*/
+
+
+@media only screen and (max-width: 950px) {
+    .top-section, .menu-bar, .menu-bar a, .middle-section, .intro, .intro>h1,  .intro>p, .intro-pic img, .logos, .Collection-title, .container, .product, .product-title, .product img, .price, .rating, .product-info, 
+    .contact-form, .left-part, .left-part h1, .right-part, .right-part input[type=text], .right-part span, 
+    .right-part button, #see-more, footer{
+        margin: 0;
+        padding:0;
+        width: 100%;
+    }
+
+    }
+    
 }
