@@ -280,7 +280,7 @@ footer{
 --------- Media Query----------
 ----------------------------- */
 
-@media only screen and (max-width: 688px) {
+@media only screen and (max-width: 600px) {
 
 
     .top-section{
@@ -314,7 +314,7 @@ footer{
     .intro>h1{
         margin: 0;
         padding: 0;
-        width: 100%;
+        width: 99%;
         margin-bottom: 15px;
         padding-left: 10px;
         padding-right: 10px;
@@ -322,7 +322,7 @@ footer{
     .intro>p{
         margin: 0;
         padding: 0;
-        width: 100%;
+        width: 99%;
         padding-left: 10px;
     }
 
@@ -330,7 +330,7 @@ footer{
         position: static;
         margin-left: 30px;
         padding:0;
-        width: 100%;
+        width: 90%;
         display: flex;
         flex-direction: column; 
     }
@@ -358,7 +358,7 @@ footer{
     }
     .product{
         margin: 0;
-        padding:10px;
+        padding: 0px;
         width: 100%;
         display: flex;
         flex-direction: column;
