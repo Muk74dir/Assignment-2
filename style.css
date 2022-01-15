@@ -322,6 +322,7 @@ footer{
         margin: 0;
         padding: 0;
         width: 99%;
+        padding-bottom: 30px;
     }
 
     .intro-pic img{
